@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Affidavit Generator</title>
+</head>
+<body>
+    <h2>Affidavit Form</h2>
+    <form action="/generate" method="post">
+
+        <input name="name" placeholder="Full Name" required><br><br>
+        <input name="father_name" placeholder="Father's Name" required><br><br>
+        <input name="mother_name" placeholder="Mother's Name" required><br><br>
+        <input name="spouse_name" placeholder="Spouse Name"><br><br>
+        <input name="dob" placeholder="Date of Birth"><br><br>
+        <input name="address" placeholder="Address" required><br><br>
+        <input name="residence_from" placeholder="Resident From"><br><br>
+        <input name="place" placeholder="Place"><br><br>
+        <input name="date" placeholder="Date"><br><br>
+
+        <button type="submit">Generate PDF</button>
+    </form>
+</body>
+</html>
